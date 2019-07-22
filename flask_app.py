@@ -35,7 +35,7 @@ def getFlair():
 
 	X = data['title'] + data['url'] + data['comments'] + data['id']
 
-	loaded_model = pickle.load(open("log_reg_combined_model_10000.sav", 'rb'))
+	loaded_model = pickle.load(open("log_reg_combined_model.sav", 'rb'))
 	predicted_flair = loaded_model.predict(X)
 	return str(predicted_flair)
 
