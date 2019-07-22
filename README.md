@@ -14,6 +14,7 @@ All the coding has been done in python. I have used pandas dataframe to access t
         vi. Enter the url you wish to find the flair for.
 
 File Descriptions
+
     1. getData_reddit.py : Python script that gets the data from submissions from reddit from the subreddit India and enters it into a csv
     
     2. initial_final.csv : Stores the above mentioned data for 100 submissions
