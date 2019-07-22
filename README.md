@@ -39,3 +39,19 @@ File Descriptions
     12. Templates : contains the HTML files
     
     13. Static : contains the CSS files
+    
+    
+    
+I collected data from reddit using praw. I got the following fields -
+link_flair_text, title, id, url, created, commentList, author
+
+I cleaned the title and comments. 
+
+The data for title, url, comments, author and id was divided into 30-70 percentage ratio for test and training. Logistic regression algorithm from scikitlearn was applied on this.
+For 100 submissions I got an accuracy of 0.5666666666666667 and for 10000 submissions I got an accuracy of 0.6812080536912751.
+
+The references used are mentioned in references.txt
+
+I made a python flask web app n which upon entering the url one would get the flair predicted by this model. The trained model was used to get this.
+
+
