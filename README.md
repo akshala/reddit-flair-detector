@@ -6,8 +6,8 @@ All the coding has been done in python. I have used pandas dataframe to access t
 How to run
 
     1. Clone this repository
-    2. Create a virtual environment by running the following commands-
-        i. virtualenv -p /usr/bin/python3 venv
+    2. Run the following commands on terminal-
+        i. virtualenv -p /usr/bin/python3 venv : create virtual environment
         ii. source venv/bin/activate
         iii. pip install -r requirements.txt
         iv. python flask_app.py
