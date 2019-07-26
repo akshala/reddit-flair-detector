@@ -49,7 +49,7 @@ Cleaned the title and comments.
 The data for title, url, comments, author and id was divided into 30-70 percentage ratio for test and training. Logistic regression algorithm from scikitlearn was applied on this.
 For 100 submissions I got an accuracy of 0.5666666666666667 and for 10000 submissions I got an accuracy of 0.6812080536912751.
 
-# The references used are mentioned in references.txt
+###### The references used are mentioned in references.txt
 
 Made a python flask web app in which upon entering the url one would get the flair predicted by this model. The trained model was used to get this.
 
