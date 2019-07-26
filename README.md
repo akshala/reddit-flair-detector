@@ -3,6 +3,8 @@ Detects the flair of a reddit post
 
 All the coding has been done in python. I have used pandas dataframe to access the contents of the csv file. Flask along with HTML and JavaScript is used to make the web application.
 
+How to run
+
     1. Clone this repository
     2. Create a virtual environment by running the following commands-
         i. virtualenv -p /usr/bin/python3 venv
