@@ -1,7 +1,7 @@
 # reddit_flair_detector
 Detects the flair of a reddit post
 
-All the coding has been done in python. I have used pandas dataframe to access the contents of the csv file. Flask along with HTML and JavaScript has been used to make the web application.
+All the coding has been done in python. Pandas dataframe has been used to access the contents of the csv file. Flask along with HTML and JavaScript has been used to make the web application.
 
 How to run
 
