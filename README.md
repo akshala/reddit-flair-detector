@@ -1,5 +1,5 @@
 # reddit_flair_detector
-Detects the flair of the reddit submission
+Detects the flair of a reddit post
 
 All the coding has been done in python. I have used pandas dataframe to access the contents of the csv file. Flask along with HTML and JavaScript is used to make the web application.
 
